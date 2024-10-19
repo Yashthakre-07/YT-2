@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+body {
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    font-family: "Playwrite GB S", cursive;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+.navbar li {
+    margin-right: 60px; /* Adds space between items */
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+}
+.container {
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    background-image: url('girl.png');
+    background-size: cover;
+    background-size: 100% 100%;
+}
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons {
+    margin-top: 14px;
+}
+.icons i {
+    cursor: pointer;
+}
+#myProgressBar {
+    width: 80vw;
+    text-align: center;
+}
+
+/* Adjust song item positioning below the bottom */
+.songItem {
+    height: 60px;
+    display: flex;
+    background-color: rgb(202, 247, 53);
+    width: 90%;
+    color: black;
+    margin: 12px auto; /* Center it with margin auto */
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+}
+.songItem img {
+    width: 43px;
+    margin: 0 23px;
+}
+.ts{
+    margin: 30px;
+    padding: 10px;
+}
